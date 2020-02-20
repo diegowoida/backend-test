@@ -1,0 +1,26 @@
+{
+  "name": "backend-test",
+  "version": "1.0.0",
+  "description": "backend test",
+  "scripts": {
+    "test": "mocha --exit --timeout 10000 src/test/",
+    "start": "nodemon ./bin/server.js"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "debug": "^4.1.1",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mocha": "^7.0.0",
+    "mongoose": "^5.8.9"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^6.2.4",
+    "nodemon": "^2.0.2"
+  },
+  "author": "Diego Woida",
+  "license": "ISC"
+}
